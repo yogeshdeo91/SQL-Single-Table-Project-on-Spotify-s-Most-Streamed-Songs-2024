@@ -49,7 +49,7 @@ WHERE total_streams =
 		(SELECT MAX(total_streams) FROM spotify_artist_data);
 ```
 
-[^Subquery to find highest stream]
+Subquery to find highest stream[^Note]
 
 ![most streamed song globally](https://github.com/user-attachments/assets/b3438f6c-7c61-400f-a36d-1af08846c635)
 
@@ -64,13 +64,13 @@ WHERE total_streams =
 ```
 SELECT songs_artist, daily_streams
 FROM spotify_artist_data
-WHERE songs_artist REGEXP 'ED Sheeran' AND daily_streams >= 200000  [^Regular expression]
+WHERE songs_artist REGEXP 'ED Sheeran' AND daily_streams >= 200000
 ORDER BY daily_streams DESC;
 ```
 
 ![songs from Ed Sheean with more than 200000 views in last 24 hours from highest to lowest](https://github.com/user-attachments/assets/b2f9acc2-8483-4caa-a88a-b6454aaa9ac3)
 
-
+Regular expression[^Note]
 
 ----
 
