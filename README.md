@@ -4,9 +4,9 @@ This project is to showcase SQL commands performed on single table
 ### This dataset contains the latest global Spotify streaming data, including song names, artist names, total streams, and daily stream counts. The data provides insights into the performance of songs on Spotify, reflecting trends in music consumption. [Dataset](https://www.kaggle.com/datasets/asmonline/spotify-song-performance-dataset)
 
 #### Columns:
-Songs & Artist: The name of the song along with the associated artist(s).
-Streams: The total number of streams the song has accumulated globally.
-Daily: The number of streams the song received within the past 24 hours.
+1. Songs & Artist: The name of the song along with the associated artist(s).
+2. Streams: The total number of streams the song has accumulated globally.
+3. Daily: The number of streams the song received within the past 24 hours.
 
 
 
