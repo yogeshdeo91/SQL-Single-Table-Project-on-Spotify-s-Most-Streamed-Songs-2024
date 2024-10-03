@@ -17,6 +17,9 @@ FROM `spotify_artist_data`;--
 
 ![View Entire Table](https://github.com/user-attachments/assets/e025d12b-40ff-4478-bf25-43b85f36301e)
 
+--
+
+
 
 >Find out most streamed song globally
 
@@ -28,6 +31,8 @@ WHERE total_streams =
 [^Subquery to find highest stream]
 
 ![most streamed song globally](https://github.com/user-attachments/assets/b3438f6c-7c61-400f-a36d-1af08846c635)
+
+--
 
 
 >Find songs from Ed Sheean with more than 200000 views in last 24 hours from highest to lowest
