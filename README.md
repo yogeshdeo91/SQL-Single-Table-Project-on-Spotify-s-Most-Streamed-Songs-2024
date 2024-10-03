@@ -51,7 +51,7 @@ WHERE total_streams =
 
 
 
-
+----
 
 
 
@@ -66,7 +66,7 @@ ORDER BY daily_streams DESC;--
 
 
 
-
+----
 
 
 >Total number of songs with daily streams within 100000 to 300000 range
@@ -79,7 +79,7 @@ WHERE daily_streams BETWEEN 100000 AND 300000;--
 
 
 
-
+----
 
 
 
