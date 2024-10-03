@@ -14,12 +14,12 @@ This project is to showcase SQL commands performed on single table
 
 
 
-
-1. View entire table...
-2. Find out most streamed song globally...
-3. Find songs from Ed Sheean with more than 200000 views in last 24 hours from highest to lowest...
-4. Total number of songs with daily streams within 100000 to 300000 range...
-5. Separating artist name from song name...
+##  Problem Statement #### (Generted by self)
+1. View entire table
+2. Find out most streamed song globally
+3. Find songs from Ed Sheean with more than 200000 views in last 24 hours from highest to lowest
+4. Total number of songs with daily streams within 100000 to 300000 range
+5. Separating artist name from song name
 
 
 
