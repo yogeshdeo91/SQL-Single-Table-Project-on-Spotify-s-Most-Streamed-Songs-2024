@@ -12,28 +12,36 @@ This project is to showcase SQL commands performed on single table
 
 >View entire table
 
---SELECT *
-FROM `spotify_artist_data`; --
+-- 
+SELECT *
+FROM `spotify_artist_data`;
+--
 
 ![View Entire Table](https://github.com/user-attachments/assets/e025d12b-40ff-4478-bf25-43b85f36301e)
 
 
 >Find out most streamed song globally
 
-```SELECT songs_artist, total_streams
+--
+SELECT songs_artist, total_streams
 FROM spotify_artist_data
 WHERE total_streams = 
-		(SELECT MAX(total_streams) FROM spotify_artist_data);``` [^Subquery to find highest stream]
+		(SELECT MAX(total_streams) FROM spotify_artist_data);
+--
+
+[^Subquery to find highest stream]
 
 ![most streamed song globally](https://github.com/user-attachments/assets/b3438f6c-7c61-400f-a36d-1af08846c635)
 
 
 >Find songs from Ed Sheean with more than 200000 views in last 24 hours from highest to lowest
 
-```SELECT songs_artist, daily_streams
+--
+SELECT songs_artist, daily_streams
 FROM spotify_artist_data
 WHERE songs_artist REGEXP 'ED Sheeran' AND daily_streams >= 200000  [^Regular expression]
-ORDER BY daily_streams DESC;```
+ORDER BY daily_streams DESC;
+--
 
 ![songs from Ed Sheean with more than 200000 views in last 24 hours from highest to lowest](https://github.com/user-attachments/assets/b2f9acc2-8483-4caa-a88a-b6454aaa9ac3)
 
