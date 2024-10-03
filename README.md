@@ -29,8 +29,10 @@ This project is to showcase SQL commands performed on single table
 
 >View entire table
 
--- SELECT *
-FROM `spotify_artist_data`; --
+```
+SELECT *
+FROM `spotify_artist_data`;
+``
 
 ![View Entire Table](https://github.com/user-attachments/assets/e025d12b-40ff-4478-bf25-43b85f36301e)
 
@@ -40,10 +42,12 @@ FROM `spotify_artist_data`; --
 
 >Find out most streamed song globally
 
--- SELECT songs_artist, total_streams
+```
+SELECT songs_artist, total_streams
 FROM spotify_artist_data
 WHERE total_streams = 
-		(SELECT MAX(total_streams) FROM spotify_artist_data); --
+		(SELECT MAX(total_streams) FROM spotify_artist_data);
+```
 
 [^Subquery to find highest stream]
 
