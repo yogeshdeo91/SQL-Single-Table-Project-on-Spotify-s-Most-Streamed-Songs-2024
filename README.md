@@ -14,7 +14,9 @@ This project is to showcase SQL commands performed on single table
 
 
 
-##  Problem Statement #### (Generted by self)
+##  Problem Statement
+(Generted by self)
+
 1. View entire table
 2. Find out most streamed song globally
 3. Find songs from Ed Sheean with more than 200000 views in last 24 hours from highest to lowest
@@ -22,8 +24,7 @@ This project is to showcase SQL commands performed on single table
 5. Separating artist name from song name
 
 
-
-
+----
 
 
 >View entire table
@@ -34,10 +35,7 @@ FROM `spotify_artist_data`;--
 ![View Entire Table](https://github.com/user-attachments/assets/e025d12b-40ff-4478-bf25-43b85f36301e)
 
 
-
-
-
-
+----
 
 
 >Find out most streamed song globally
