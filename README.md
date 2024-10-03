@@ -12,7 +12,8 @@ This project is to showcase SQL commands performed on single table
 
 >View entire table
 
---SELECT *
+--mysql 
+SELECT *
 FROM `spotify_artist_data`;--
 
 ![View Entire Table](https://github.com/user-attachments/assets/e025d12b-40ff-4478-bf25-43b85f36301e)
