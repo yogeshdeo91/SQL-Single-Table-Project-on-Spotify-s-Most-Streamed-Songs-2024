@@ -1,9 +1,9 @@
 # SQL-Single-Table-Project-on-Spotify-s-Most-Streamed-Songs-2024
 This project is to showcase SQL commands performed on single table
 
-##This dataset contains the latest global Spotify streaming data, including song names, artist names, total streams, and daily stream counts. The data provides insights into the performance of songs on Spotify, reflecting trends in music consumption.##
+#  This dataset contains the latest global Spotify streaming data, including song names, artist names, total streams, and daily stream counts. The data provides insights into the performance of songs on Spotify, reflecting trends in music consumption.  #
 
-##Columns:##
+#  Columns:  #
 Songs & Artist: The name of the song along with the associated artist(s).
 Streams: The total number of streams the song has accumulated globally.
 Daily: The number of streams the song received within the past 24 hours.
