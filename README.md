@@ -1,7 +1,7 @@
 # SQL-Single-Table-Project-on-Spotify-s-Most-Streamed-Songs-2024
 This project is to showcase SQL commands performed on single table
 
-### Renamed colomns from original dataset to songs_artist , total_streams, daily_streams for ease of query ##
+>Renamed colomns from original dataset to songs_artist , total_streams, daily_streams for ease of query
 
 *View entire table
 *Find out most streamed song globally
