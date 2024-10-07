@@ -29,7 +29,7 @@ This project is to showcase SQL commands performed on single table
 
 >View entire table
 
-```
+```mysql
 SELECT *
 FROM `spotify_artist_data`;
 ```
@@ -42,7 +42,7 @@ FROM `spotify_artist_data`;
 
 >Find out most streamed song globally
 
-```
+```mysql
 SELECT songs_artist, total_streams
 FROM spotify_artist_data
 WHERE total_streams = 
@@ -61,7 +61,7 @@ Subquery to find highest stream[^Note]
 
 >Find songs from Ed Sheean with more than 200000 views in last 24 hours from highest to lowest
 
-```
+```mysql
 SELECT songs_artist, daily_streams
 FROM spotify_artist_data
 WHERE songs_artist REGEXP 'ED Sheeran' AND daily_streams >= 200000
@@ -77,7 +77,7 @@ Regular expression[^Note]
 
 >Total number of songs with daily streams within 100000 to 300000 range
 
-```
+```mysql
 SELECT COUNT(songs_artist) as 'Number of Songs'
 FROM spotify_artist_data
 WHERE daily_streams BETWEEN 100000 AND 300000;
@@ -93,7 +93,7 @@ WHERE daily_streams BETWEEN 100000 AND 300000;
 
 >Separating artist name from song name
 
-```
+```mysql
 SELECT *
 FROM (
     SELECT
