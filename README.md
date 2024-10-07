@@ -3,31 +3,16 @@ This project is to showcase SQL commands performed on single table
 
 ### This dataset contains the latest global Spotify streaming data, including song names, artist names, total streams, and daily stream counts. The data provides insights into the performance of songs on Spotify, reflecting trends in music consumption. [Dataset](https://www.kaggle.com/datasets/asmonline/spotify-song-performance-dataset)
 
-#### Columns:
-1. Songs & Artist: The name of the song along with the associated artist(s).
-2. Streams: The total number of streams the song has accumulated globally.
-3. Daily: The number of streams the song received within the past 24 hours.
-
-
 
 >Renamed colomns from original dataset to songs_artist , total_streams, daily_streams for ease of query
 
 
-
-##  Problem Statement
-(Generted by self)
-
-1. View entire table
-2. Find out most streamed song globally
-3. Find songs from Ed Sheean with more than 200000 views in last 24 hours from highest to lowest
-4. Total number of songs with daily streams within 100000 to 300000 range
-5. Separating artist name from song name
-
+### Explored problem statements : 
 
 ----
 
 
->View entire table
+#### 1. View entire table
 
 ```mysql
 SELECT *
@@ -40,7 +25,7 @@ FROM `spotify_artist_data`;
 ----
 
 
->Find out most streamed song globally
+#### 2. Find out most streamed song globally
 
 ```mysql
 SELECT songs_artist, total_streams
@@ -59,7 +44,7 @@ Subquery to find highest stream[^Note]
 
 
 
->Find songs from Ed Sheean with more than 200000 views in last 24 hours from highest to lowest
+#### 3. Find songs from Ed Sheean with more than 200000 views in last 24 hours from highest to lowest
 
 ```mysql
 SELECT songs_artist, daily_streams
@@ -75,7 +60,7 @@ Regular expression[^Note]
 ----
 
 
->Total number of songs with daily streams within 100000 to 300000 range
+#### 4. Total number of songs with daily streams within 100000 to 300000 range
 
 ```mysql
 SELECT COUNT(songs_artist) as 'Number of Songs'
@@ -91,7 +76,7 @@ WHERE daily_streams BETWEEN 100000 AND 300000;
 
 
 
->Separating artist name from song name
+#### 5. Separating artist name from song name
 
 ```mysql
 SELECT *
